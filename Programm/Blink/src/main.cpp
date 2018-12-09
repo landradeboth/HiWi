@@ -3,14 +3,14 @@
 void setup() {
   Serial.begin(115200);
   delay(500);
-  pinMode(4,OUTPUT);
+  pinMode(2,OUTPUT);
 }
 
 void loop() {
-  digitalWrite(4,HIGH);
+  digitalWrite(2,HIGH);
   Serial.println("ON"); 
   delay(500);
-  digitalWrite(4,LOW);
+  digitalWrite(2,LOW);
   Serial.println("OFF");
   delay(500);
 }
