@@ -3,9 +3,6 @@
 void setup() {
   Serial.begin(115200);
   delay(500);
-  /* 
-  $ Comment 222
-  */
   pinMode(4,OUTPUT);
 }
 
